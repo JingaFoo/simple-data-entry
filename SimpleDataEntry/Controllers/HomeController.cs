@@ -15,10 +15,17 @@ namespace SimpleDataEntry.Controllers
             return View();
         }
 
-        [Route("/rsvpform")]
+        [HttpGet]
         public ViewResult RsvpForm()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ViewResult RsvpForm(GuestResponse guestResponse)
+        {
+            Repository.AddResponse(guestResponse);
+            return View("Thanks", guestResponse);
         }
     }
 }

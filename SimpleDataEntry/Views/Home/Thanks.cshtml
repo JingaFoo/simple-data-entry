@@ -1,0 +1,29 @@
+﻿@model SimpleDataEntry.Models.GuestResponse
+@{
+    ViewData["Title"] = "Thanks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-4" style="text-transform: capitalize;">Thanks! @Model.Name</h1>
+        @if (Model.WillAttend == true)
+        {
+            <p class="lead">
+                Thank you for showing your interest in the party! <br />
+                We are looking forward to your presence and your inner party animal :D
+            </p>
+
+        }
+        else
+        {
+
+            <p class="lead">
+                Awww! You can't come?<br />
+                It's alright, we do this like every weekend so be sure to catch us on the next one!
+            </p>
+        }
+            <p class="lead"><a asp-action="ListResponses">See who's attending</a></p>
+    </div>
+</div>
+
