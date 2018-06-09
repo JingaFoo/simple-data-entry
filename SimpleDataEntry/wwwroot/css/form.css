@@ -5,3 +5,24 @@
 .rsvp-form {
 
 }
+
+.field-validation-error {
+    color: #700;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #700;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #700;
+}
+
+.validation-summary-valid {
+    display: none;
+}

@@ -8,6 +8,7 @@
     <div class="row">
         <div class="col-12">
             <form asp-action="RsvpForm" method="post" class="rsvp-form">
+                <div asp-validation-summary="All"></div>
                 <div class="picture-container d-flex justify-content-center">
                     <img class="party-pic" src="https://i.pinimg.com/564x/28/cf/9b/28cf9bc38be2fb8d6c4919d84eca1a77.jpg" />
                 </div>
@@ -29,7 +30,7 @@
                     <div class="col-6">
                         <div class="form-group">
                             <label asp-for="Phone">Phone: </label>
-                            <input class="form-control" type="number" asp-for="Phone" />
+                            <input class="form-control" type="text" asp-for="Phone" />
                         </div>
                     </div>
                     <div class="col-6">
