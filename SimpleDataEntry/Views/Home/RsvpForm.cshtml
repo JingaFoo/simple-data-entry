@@ -1,0 +1,53 @@
+﻿@model SimpleDataEntry.Models.GuestResponse
+@{
+    ViewData["Title"] = "RsvpForm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container d-flex my-4 justify-content-center">
+    <div class="row">
+        <div class="col-12">
+            <form asp-action="RsvpForm" method="post" class="rsvp-form">
+                <div class="picture-container d-flex justify-content-center">
+                    <img class="party-pic" src="https://i.pinimg.com/564x/28/cf/9b/28cf9bc38be2fb8d6c4919d84eca1a77.jpg" />
+                </div>
+                <div class="form-row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label asp-for="Name">Name: </label>
+                            <input class="form-control" type="text" asp-for="Name" />
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label asp-for="Email">Email: </label>
+                            <input class="form-control" type="email" asp-for="Email" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label asp-for="Phone">Phone: </label>
+                            <input class="form-control" type="number" asp-for="Phone" />
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label asp-for="WillAttend">Will you attend?</label>
+                            <select asp-for="WillAttend" class="form-control">
+                                <option value="">Choose an option</option>
+                                <option>Yes, i'll be there</option>
+                                <option>No, i can't make it</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <button class="btn btn-primary" type="submit">Submit RSVP</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

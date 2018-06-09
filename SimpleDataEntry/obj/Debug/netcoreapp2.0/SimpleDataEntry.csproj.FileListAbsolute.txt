@@ -1,0 +1,11 @@
+D:\Projects\SimpleDataEntry\SimpleDataEntry\bin\Debug\netcoreapp2.0\SimpleDataEntry.deps.json
+D:\Projects\SimpleDataEntry\SimpleDataEntry\bin\Debug\netcoreapp2.0\SimpleDataEntry.runtimeconfig.json
+D:\Projects\SimpleDataEntry\SimpleDataEntry\bin\Debug\netcoreapp2.0\SimpleDataEntry.runtimeconfig.dev.json
+D:\Projects\SimpleDataEntry\SimpleDataEntry\bin\Debug\netcoreapp2.0\SimpleDataEntry.dll
+D:\Projects\SimpleDataEntry\SimpleDataEntry\bin\Debug\netcoreapp2.0\SimpleDataEntry.pdb
+D:\Projects\SimpleDataEntry\SimpleDataEntry\obj\Debug\netcoreapp2.0\SimpleDataEntry.csprojAssemblyReference.cache
+D:\Projects\SimpleDataEntry\SimpleDataEntry\obj\Debug\netcoreapp2.0\SimpleDataEntry.csproj.CoreCompileInputs.cache
+D:\Projects\SimpleDataEntry\SimpleDataEntry\obj\Debug\netcoreapp2.0\SimpleDataEntry.AssemblyInfoInputs.cache
+D:\Projects\SimpleDataEntry\SimpleDataEntry\obj\Debug\netcoreapp2.0\SimpleDataEntry.AssemblyInfo.cs
+D:\Projects\SimpleDataEntry\SimpleDataEntry\obj\Debug\netcoreapp2.0\SimpleDataEntry.dll
+D:\Projects\SimpleDataEntry\SimpleDataEntry\obj\Debug\netcoreapp2.0\SimpleDataEntry.pdb
