@@ -1,0 +1,26 @@
+﻿@model IEnumerable<SimpleDataEntry.Models.GuestResponse>
+@{
+    ViewData["Title"] = "ListResponses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Attending</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (SimpleDataEntry.Models.GuestResponse attendee in Model)
+            {
+            <tr>
+                <td style="text-transform: capitalize;">@attendee.Name</td>
+                <td>@attendee.WillAttend</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
